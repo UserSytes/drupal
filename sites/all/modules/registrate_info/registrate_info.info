@@ -1,0 +1,13 @@
+name = Registrate info
+description = Opcja akceptacji regulaminu przy rejestracji konta.
+core = 7.x
+package = Gotowce Drupalomania
+version = 7.x-1.0
+project = registrate_info
+dependencies[] = features
+dependencies[] = info_page
+dependencies[] = locale
+dependencies[] = terms_of_use
+features[features_api][] = api:1
+features[language][] = en
+features[language][] = pl

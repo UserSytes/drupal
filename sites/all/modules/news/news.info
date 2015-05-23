@@ -1,0 +1,15 @@
+name = News
+description = Newsy na stronie, dodanie rodzaju zawartości
+core = 7.x
+package = Gotowce Drupalomania
+version = 7.x-1.0
+project = news
+dependencies[] = features
+dependencies[] = menu
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:1
+features[field][] = node-newsy-body
+features[menu_custom][] = main-menu
+features[node][] = newsy
+features[views_view][] = news_views

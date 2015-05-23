@@ -1,0 +1,15 @@
+name = Info page
+description = Strona informacyjna, rodzaj zawartości
+core = 7.x
+package = Gotowce Drupalomania
+version = 7.x-1.0
+project = info_page
+dependencies[] = features
+dependencies[] = imce
+dependencies[] = imce_wysiwyg
+dependencies[] = wysiwyg
+features[features_api][] = api:1
+features[field][] = node-strony_informacyjne-body
+features[filter][] = filtered_html
+features[filter][] = full_html
+features[node][] = strony_informacyjne
